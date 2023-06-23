@@ -1,0 +1,26 @@
+.rrr{
+  color: red;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.cont{
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit , 200px);
+  gap: 10px;
+}
+.product{
+  border: 1px solid teal;
+  background: linear-gradient(45deg , rgb(33, 150, 196) , transparent);
+}
+
+.red{
+  background: linear-gradient(-45deg , red , tomato);
+}
+.blue{
+  background: linear-gradient(-45deg , blue , skyblue);
+}
+
+.heading{
+  color: red;
+}
